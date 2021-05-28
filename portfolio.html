@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon-portfolio.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/d3b2b039fa.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="portfolio__body">
+    <header>
+        <div class="logo">
+            <img src="favicon-portfolio.png" alt="" height="50px" width="50px">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My expertises</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+      <!--Introduction-->
+      <section class="intro">
+        <h1 class="section__title section__title--intro">
+            Here are some <strong>of my projects</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Take a look</p>
+        <img src="propic.jpg" class="intro__img" alt="a picture of laptop">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <h3 class="portfolio-item__title" id="CP">Cloud hosting page project</h3>
+        <a href="https://gebusoliwia.github.io/coluri/" target="_blank"><img src="CP.png" alt=""></a>
+        <p>This webpage showcases a cloud hosting page. This minimalistic design 
+            is orientated towards an enhanced user experience. It is simple, 
+            readable and  very functional. Based on HTML5 with CSS3 and 
+            incorporate some JavaScript. Coluri is a responsive page 
+            proposition for every company who offers this kind of service.</p>
+           <hr>
+
+           <h3 class="portfolio-item__title" id="SF">Survey form project</h3>
+        <a href="https://gebusoliwia.github.io/survey-form/" target="_blank"><img src="SF.png" alt=""></a>
+        <p>One of my first web development projects was the creation of a 
+            survey form. Being a coffee lover myself, the page is dedicated 
+            to gathering informations through closed questionaire about 
+            their coffee tastes. The focus of this project was the 
+            utilization of form elements to retrieve user input.</p>
+           <hr>
+
+           <h3 class="portfolio-item__title" id="BP">Blog about bikepacking project</h3>
+        <a href="https://gebusoliwia.github.io/bikepacking/" target="_blank"><img src="BP.png" alt=""></a>
+        <p>The layout of this page is designed for a blog post with widgets 
+            linking to other posts. The webpage itself is responsive to 
+            browser size changes targeting desktop and smartphone users. 
+            The theme of the page is bike orientated. </p>
+           <hr>
+
+           <h3 class="portfolio-item__title" id="FS">Tribute page project</h3>
+        <a href="https://gebusoliwia.github.io/tribute-page/" target="_blank"><img src="FS.png" alt=""></a>
+        <p>The first web project I ever made was a tribute page fot the late 
+            Polish painter Franciszek Starowieyski. It is a simple design 
+            made to give a brief overview of the artist’s trajectory 
+            highlighting the exhibitions where his artwork was showcased. 
+            This design focused heavily  on creating different spaces through 
+            the contrast of color.</p>
+           <hr>
+
+           <h3 class="portfolio-item__title" id="DA">Technical documentation page project</h3>
+        <a href="https://gebusoliwia.github.io/technical-documentation-page/" target="_blank"><img src="DA.png" alt=""></a>
+        <p>The design focused primarly on the utilization of images and high 
+            contrast text for an improved visual accessibility. The project 
+            showcased different locations of South-East Asia incorporating 
+            images seemlessly into the webpage. The elements were positioned 
+            using mere section tags.</p>
+           <hr>
+
+           <h3 class="portfolio-item__title" id="GP">Blog about gardening project</h3>
+        <a href="https://gebusoliwia.github.io/garden-blog/" target="_blank"><img src="GP.png" alt=""></a>
+        <p>This web design impements a flexbox layout to render the page 
+            responsive. The color palette and structure remain uniform 
+            throughout all of the pages. The main content  is fixed to 
+            the left side and on the right there is side bar with links 
+            to the other webpage sections.</p> 
+    </div>
+
+
+
+    <!--Footer-->
+    <footer class="footer">
+        <a href="mailto:" class="footer__link">gebusoliwia@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a href="https://github.com/gebusoliwia" target="_blank" class="social-list__link">
+                <i class="fab fa-github"></i>
+            </a></li>
+
+            <li class="social-list__item"><a href="https://codepen.io/oliwiagebus" target="_blank" class="social-list__link">
+                <i class="fab fa-codepen"></i>
+            </a></li>
+
+            <li class="social-list__item"><a href="https://www.instagram.com/oliwiagebus/" target="_blank" class="social-list__link">
+                <i class="fab fa-instagram"></i>
+            </a></li>
+        </ul>
+    </footer>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon-portfolio.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/d3b2b039fa.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="favicon-portfolio.png" alt="" height="50px" width="50px">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My expertises</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Introduction-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            I am <strong>Oliwia Gębuś</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">FRONT-END DEV</p>
+        <img src="Oli1.jpg" class="intro__img" alt="a picture of Oliwa Gębuś">
+    </section>
+
+    <!--My Services-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">Me expertises</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Development</h3>
+                <p>I love to code fast and easy to find webpages from scratch. 
+                   Taking extra joy in transforming an idea to an actual reality.</p>
+            </div> <!--/serive-->
+
+            <div class="service">
+                <h3>Design</h3>
+                <p>Design is my passion. I always plan and iterate a site's 
+                   structure and layout. I value concise content and clean 
+                   design patterns.</p>
+            </div> <!--/serive-->
+
+            <div class="service">
+                <h3>WordPress</h3>
+                <p>This CMS is another one of my web development tools that 
+                   I employ for the creation of SEO and user-friendly websites.</p>
+            </div> <!--/serive-->
+        </div> <!--/serives-->
+
+        <a href="#work" class="btn">My projects</a>
+    </section>
+
+    <!--About me-->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about-me">About me</h2>
+        <p class="section__subtitle section__subtitle--about">Developer & designer based in Poland</p>
+        
+        <div class="about-me__body">
+            <p>My web development career has a humble beginning. 
+               This adventure began not so long ago, but my steps 
+               have been long and steady bringing me great achievements 
+               in a short period of time; and an ever stronger passion 
+               for web design.<br></p>
+            <p>I take your ideas and bring them to life using the most 
+               current technology. My designs gravitate towards interactive 
+               and highly functional websites that take advantage of the 
+               possibilities of modern web browsers.</p>
+        </div>
+        <img src="Oli2.png" alt="Oliwia staying agaist a wall" class="about-me__img">
+    </section>
+
+    <!--My work-->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My projects</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <a href="portfolio.html#CP" class="portfolio__item">
+                <img src="CP.png" class="portfolio__img">
+            </a>
+            <a href="portfolio.html#SF" class="portfolio__item">
+                <img src="SF.png" class="portfolio__img">
+            </a>
+            <a href="portfolio.html#BP" class="portfolio__item">
+                <img src="BP.png" class="portfolio__img">
+            </a>
+            <a href="portfolio.html#FS" class="portfolio__item">
+                <img src="FS.png" class="portfolio__img">
+            </a>
+            <a href="portfolio.html#DA" class="portfolio__item">
+                <img src="DA.png" class="portfolio__img">
+            </a>
+            <a href="portfolio.html#GP" class="portfolio__item">
+                <img src="GP.png" class="portfolio__img">
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <a href="mailto:" class="footer__link">gebusoliwia@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a href="https://github.com/gebusoliwia" target="_blank" class="social-list__link">
+                <i class="fab fa-github"></i>
+            </a></li>
+
+            <li class="social-list__item"><a href="https://codepen.io/oliwiagebus" target="_blank" class="social-list__link">
+                <i class="fab fa-codepen"></i>
+            </a></li>
+
+            <li class="social-list__item"><a href="https://www.instagram.com/oliwiagebus/" target="_blank" class="social-list__link">
+                <i class="fab fa-instagram"></i>
+            </a></li>
+        </ul>
+    </footer>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
